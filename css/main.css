@@ -2,8 +2,7 @@
   font-size: 14px; }
 
 .topcontainer {
-  width: 800px;
-  border: 1px solid black;
+  width: 850px;
   margin: 0 auto; }
 
 .Etsy {
@@ -36,7 +35,7 @@
 .navBar {
   border-top: 1px solid gray;
   border-bottom: 1px solid gray;
-  margin: 10px 0; }
+  margin: 10px 0 0 0; }
   .navBar ul {
     text-align: center;
     padding: 1px 2px; }
@@ -46,28 +45,31 @@
     font-size: 12px; }
 
 .bodycontainer {
-  width: 800px;
-  border: 1px solid black;
+  width: 850px;
   margin: 0 auto;
   padding: 0;
   background-color: #F5F5F1; }
   .bodycontainer .sidebar {
     display: inline-block;
-    width: 200px;
-    border: 1px solid black;
-    padding: 5px;
-    margin: 10px 10px;
-    vertical-align: top; }
+    width: 160px;
+    vertical-align: top;
+    margin-left: 5px; }
   .bodycontainer .mainpanel {
     display: inline-block;
-    width: 535px;
-    border: 1px solid black;
-    padding: 5px;
+    width: 670px;
     vertical-align: top;
-    margin: 10px 10px 10px 0px; }
+    margin-left: 5px; }
     .bodycontainer .mainpanel .itemBoxes {
+      display: inline-block; }
+    .bodycontainer .mainpanel .itemBox {
       display: inline-block;
-      border: 1px solid black;
+      width: 28%;
+      text-align: center;
+      vertical-align: top;
+      padding: 7px;
+      border-radius: 3px;
       background-color: white;
-      width: 30%;
-      margin: 0px 6px 20px 6px; }
+      border: 1px solid #F5F5F1;
+      margin: 10px 8px; }
+    .bodycontainer .mainpanel .itemImages {
+      border-radius: 2px; }

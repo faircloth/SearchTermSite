@@ -11,8 +11,7 @@ $etsyGray: #F5F5F1;
 // top bar
 
 .topcontainer {
-  width: 800px;
-  border: 1px solid black;
+  width: 850px;
   margin: 0 auto;
 }
 
@@ -61,7 +60,7 @@ $etsyGray: #F5F5F1;
 .navBar {
   border-top: 1px solid gray;
   border-bottom: 1px solid gray;
-  margin: 10px 0;
+  margin: 10px 0 0 0;
   ul {
     text-align: center;
     padding: 1px 2px;
@@ -78,36 +77,44 @@ $etsyGray: #F5F5F1;
 // bodycontainer
 
 .bodycontainer  {
-  width: 800px;
-  border: 1px solid black;
+  width: 850px;
   margin: 0 auto;
   padding: 0;
   background-color: $etsyGray;
 
   .sidebar {
     display: inline-block;
-    width: 200px;
-    border: 1px solid black;
-    padding: 5px;
-    margin: 10px 10px;
+    width: 160px;
     vertical-align: top;
+    margin-left: 5px;
   }
 
   .mainpanel {
   display: inline-block;
-  width: 535px;
-  border: 1px solid black;
-  padding: 5px;
+  width: 670px;
   vertical-align: top;
-  margin: 10px 10px 10px 0px;
+  margin-left: 5px;
 
     .itemBoxes {
       display: inline-block;
-      border: 1px solid black;
-      background-color: white;
-      width: 30%;
-      margin: 0px 6px 20px 6px;
     }
+
+      .itemBox {
+        display: inline-block;
+        width: 28%;
+        text-align: center;
+        vertical-align: top;
+        padding: 7px;
+        border-radius: 3px;
+        background-color: white;
+        border: 1px solid $etsyGray;
+        margin: 10px 8px;
+      }
+
+      .itemImages{
+        border-radius: 2px;
+
+      }
   }
 
 }
