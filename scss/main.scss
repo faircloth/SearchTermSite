@@ -1,19 +1,20 @@
 // stlye variables
 $etsyOrange: #EC6333;
 $etsyBlue: #4AA8C4;
+$etsyGray: #F5F5F1;
 
 
 * {
   font-size: 14px;
 }
 
-p {
-  background-color: lightgray;
-  color: blue;
-}
-
-
 // top bar
+
+.topcontainer {
+  width: 800px;
+  border: 1px solid black;
+  margin: 0 auto;
+}
 
 .Etsy {
   color: $etsyOrange;
@@ -42,14 +43,10 @@ p {
 
 .topBarNav {
   display: inline-block;
-  border: 1px solid black;
-  float: right;
-
+  margin-left: 60px;
     ul {
       display: inline-block;
-
     }
-
     li {
       display: inline-block;
       padding: 0 10px;
@@ -57,51 +54,62 @@ p {
 }
 
 
-.navBar {
-
-  border-top: 1px solid gray;
-  border-bottom: 1px solid gray;
-  margin: 10px 0;
-
-  ul {
-    text-align: center;
-    padding: 1px 2px;
-  }
-
-  li {
-    display: inline-block;
-    padding: 0px 5px;
-    font-size: 12px;
-  }
-
-}
-
 
 // Second bar: nav
 
 
+.navBar {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  margin: 10px 0;
+  ul {
+    text-align: center;
+    padding: 1px 2px;
+  }
+  li {
+    display: inline-block;
+    padding: 0px 5px;
+    font-size: 12px;
+    }
+}
 
 
 
+// bodycontainer
 
-
-// body
-
-.container {
+.bodycontainer  {
   width: 800px;
   border: 1px solid black;
   margin: 0 auto;
-}
+  padding: 0;
+  background-color: $etsyGray;
 
+  .sidebar {
+    display: inline-block;
+    width: 200px;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 10px 10px;
+    vertical-align: top;
+  }
 
-.sidebar {
+  .mainpanel {
   display: inline-block;
-  width: 300px;
-  height: 900px;
+  width: 470px;
+  border: 1px solid black;
+  padding: 20px;
+  margin-left: 20px;
+  vertical-align: top;
+  margin: 10px 10px;
+
+    .itemboxes {
+      display: block;
+    }
+  }
+
 }
 
-.mainpanel {
-  display: inline-block;
-  width: 500px;
-}
+
+
+
 

@@ -1,9 +1,10 @@
 * {
   font-size: 14px; }
 
-p {
-  background-color: lightgray;
-  color: blue; }
+.topcontainer {
+  width: 800px;
+  border: 1px solid black;
+  margin: 0 auto; }
 
 .Etsy {
   color: #EC6333;
@@ -25,8 +26,7 @@ p {
 
 .topBarNav {
   display: inline-block;
-  border: 1px solid black;
-  float: right; }
+  margin-left: 60px; }
   .topBarNav ul {
     display: inline-block; }
   .topBarNav li {
@@ -45,16 +45,26 @@ p {
     padding: 0px 5px;
     font-size: 12px; }
 
-.container {
+.bodycontainer {
   width: 800px;
   border: 1px solid black;
-  margin: 0 auto; }
-
-.sidebar {
-  display: inline-block;
-  width: 300px;
-  height: 900px; }
-
-.mainpanel {
-  display: inline-block;
-  width: 500px; }
+  margin: 0 auto;
+  padding: 0;
+  background-color: #F5F5F1; }
+  .bodycontainer .sidebar {
+    display: inline-block;
+    width: 200px;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 10px 10px;
+    vertical-align: top; }
+  .bodycontainer .mainpanel {
+    display: inline-block;
+    width: 470px;
+    border: 1px solid black;
+    padding: 20px;
+    margin-left: 20px;
+    vertical-align: top;
+    margin: 10px 10px; }
+    .bodycontainer .mainpanel .itemboxes {
+      display: block; }

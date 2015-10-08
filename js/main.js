@@ -8,7 +8,7 @@
   _.each(etsy.results, function (item) {
     console.log(item);
     var itemHTML = templateFunction(item);
-    $('.container').append(itemHTML);
+    $('.bodycontainer').append(itemHTML);
   });
 
 
