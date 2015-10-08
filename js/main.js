@@ -6,13 +6,14 @@
 
   var firstTwentyFive = _.first(etsy.results,25);
 
-  console.log(firstTwentyFive);
+  // console.log(firstTwentyFive);
 
-  _.each(etsy.results, function (item) {
+  _.each(firstTwentyFive, function (item) {
     console.log(item);
     var itemHTML = templateFunction(item);
     $('.itemBoxes').append(itemHTML);
   });
+
 
 
 

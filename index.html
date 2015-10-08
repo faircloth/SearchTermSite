@@ -130,10 +130,14 @@
           <div class="itemBoxes">
              <script type="text/template" id="itemTemplate">
                  <div>
+                  <img src="<%= Images[0].url_75x75 %>">
                   <p>
                     <%= title %>
                   </p>
-                  <p class="price">
+                  <p>
+                    <%= Shop.shop_name %>
+                  </p>
+                  <p>
                     $<%= price %>
                   </p>
                 </div>
@@ -141,19 +145,7 @@
             </script>
           </div>
 
-           <div class="itemBoxes">
-             <script type="text/template" id="itemTemplate">
-                 <div>
-                  <p>
-                    <%= title %>
-                  </p>
-                  <p class="price">
-                    $<%= price %>
-                  </p>
-                </div>
-                <hr>
-            </script>
-          </div>
+
     </div>
   </div>
 
@@ -165,18 +157,6 @@
   </div>
 
 
-
-      <script type="text/template" id="itemTemplate">
-           <div class="itemBoxes">
-            <p>
-              <%= title %>
-            </p>
-            <p class="price">
-              $<%= price %>
-            </p>
-          </div>
-          <hr>
-      </script>
 
 
   
