@@ -3,12 +3,17 @@ $etsyOrange: #EC6333;
 $etsyBlue: #4AA8C4;
 
 
+* {
+  font-size: 14px;
+}
 
 p {
   background-color: lightgray;
   color: blue;
 }
 
+
+// top bar
 
 .Etsy {
   color: $etsyOrange;
@@ -34,6 +39,53 @@ p {
   }
 
 }
+
+.topBarNav {
+  display: inline-block;
+  border: 1px solid black;
+  float: right;
+
+    ul {
+      display: inline-block;
+
+    }
+
+    li {
+      display: inline-block;
+      padding: 0 10px;
+    }
+}
+
+
+.navBar {
+
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  margin: 10px 0;
+
+  ul {
+    text-align: center;
+    padding: 1px 2px;
+  }
+
+  li {
+    display: inline-block;
+    padding: 0px 5px;
+    font-size: 12px;
+  }
+
+}
+
+
+// Second bar: nav
+
+
+
+
+
+
+
+// body
 
 .container {
   width: 800px;

@@ -9,34 +9,63 @@
 
   <div class="container">
 
-  <div class="topbar">
+      <div class="topbar">
 
-    <span class="Etsy">Etsy</span>
-    
-    <form class="searchBarWrapper">
-      <input class="searchInput" type="text" placeholder="Search for items">
-      </input>
-      <button class="searchButton">Search</button>
-    </form>
+        <span class="Etsy">Etsy</span>
+        
+        <form class="searchBarWrapper">
+          <input class="searchInput" type="text" placeholder="Search for items">
+          </input>
+          <button class="searchButton">Search</button>
+        </form>
 
 
+        <nav class="topBarNav">
+        <!-- add a link -->
+          <span class="sellOn">Sell on Etsy</span>
+          <ul class="topRightIcons">
+            <li>Home</li>
+            <li>Favorites</li>
+            <li>You</li>
+            <li>Cart</li>
+          </ul>
+        </nav>
+      </div>
 
-  </div>
+  <nav class="navBar">
+
+    <ul>
+      
+      <li>Clothing & Accessories</li>
+      <li>Jewelry</li>
+      <li>Crafts Supplies & Tools</li>
+      <li>Weddings</li>
+      <li>Entertainment</li>
+      <li>Home & Living</li>
+      <li>Kids & Baby</li>
+      <li>Vintage</li>
+
+
+    </ul>
+
+  </nav>
+
+
 
  
     
 
     <script type="text/template" id="itemTemplate">
-      <div> 
-        <p>
-          <%= title %>
-        </p>
-        <p class="price">
-          $<%= price %>
-        </p>
-      </div>
-      <hr>
-    </script>
+        <div> 
+          <p>
+            <%= title %>
+          </p>
+          <p class="price">
+            $<%= price %>
+          </p>
+        </div>
+        <hr>
+      </script>
 
 
   
@@ -51,7 +80,6 @@
       <p>Hello, I'm the main panel</p>
  -->
   
-  </div>
 
 
 
