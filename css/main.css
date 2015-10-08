@@ -55,16 +55,19 @@
     display: inline-block;
     width: 200px;
     border: 1px solid black;
-    padding: 20px;
+    padding: 5px;
     margin: 10px 10px;
     vertical-align: top; }
   .bodycontainer .mainpanel {
     display: inline-block;
-    width: 470px;
+    width: 535px;
     border: 1px solid black;
-    padding: 20px;
-    margin-left: 20px;
+    padding: 5px;
     vertical-align: top;
-    margin: 10px 10px; }
-    .bodycontainer .mainpanel .itemboxes {
-      display: block; }
+    margin: 10px 10px 10px 0px; }
+    .bodycontainer .mainpanel .itemBoxes {
+      display: inline-block;
+      border: 1px solid black;
+      background-color: white;
+      width: 30%;
+      margin: 0px 6px 20px 6px; }
