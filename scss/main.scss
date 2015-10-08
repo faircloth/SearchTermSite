@@ -1,13 +1,28 @@
 p {
   background-color: lightgray;
-  color: red;
+  color: blue;
 }
 
 
-.bodycontainer {
+.Etsy {
+  color: orange;
+  font-size: 40px;
+}
 
-  width: 900px;
+.searchBarWrapper {
+  display: inline-block;
+
+  .searchInput {
+    padding-right: 40px;
+    margin-left: 20px;
+  }
+
+}
+
+.container {
+  width: 800px;
   border: 1px solid black;
+  margin: 0 auto;
 }
 
 
