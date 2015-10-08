@@ -125,11 +125,25 @@
 
 
     <div class="mainpanel">
-        <h2>Show results for</h2>
+        <h2>All categories</h2>
 
           <div class="itemBoxes">
              <script type="text/template" id="itemTemplate">
-                 <div class="itemBoxes">
+                 <div>
+                  <p>
+                    <%= title %>
+                  </p>
+                  <p class="price">
+                    $<%= price %>
+                  </p>
+                </div>
+                <hr>
+            </script>
+          </div>
+
+           <div class="itemBoxes">
+             <script type="text/template" id="itemTemplate">
+                 <div>
                   <p>
                     <%= title %>
                   </p>
