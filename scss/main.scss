@@ -5,7 +5,7 @@ $etsyGray: #F5F5F1;
 $etsyBorder: #E1E3DF;
 $pageWidth: 950px;
 $sidebarWidth: 200px;
-$mainPanelWidth: 700px;
+$mainPanelWidth: 730px;
 
 
 * {
@@ -13,6 +13,8 @@ $mainPanelWidth: 700px;
   font-family: 'Noto Sans', sans-serif;
   color: #5B5B5B;
 }
+
+
 
 h2 {
   font-size: 1.1em;
@@ -66,7 +68,7 @@ h2 {
     }
     li {
       display: inline-block;
-      padding: 0 10px;
+      padding: 0 15px;
     }
 }
 
@@ -90,7 +92,7 @@ hr {
   }
   li {
     display: inline-block;
-    padding: 0px 10px 0px 0px;
+    padding: 0px 23px 5px 0px;
     font-size: 1em;
     }
   }
@@ -116,6 +118,49 @@ hr {
     width: $sidebarWidth;
     vertical-align: top;
     margin-left: 5px;
+
+
+    .sideList {
+      border-radius: 3px;
+      background-color: white;
+      border: 1px solid #CBCCC9;
+      padding: 10px;
+           line-height: 1.5em;
+
+       span {
+        padding-left: 5px;
+        font-weight: bold;
+        font-size: 1.05em;
+      }
+
+      ul {
+      list-style-type: none;
+      padding-left: 12px;
+ 
+
+        .mainList {
+          color: $etsyBlue;
+        }
+      }
+
+        .radiobutton {
+          radius: 3px;
+          margin-left: 5px;
+          margin-top: 10px;
+
+            .radiobutton :hover {
+            background-color: black;
+            }
+        }
+
+      a {
+        color: $etsyBlue;
+        text-decoration: none;
+        padding-left: 8px;
+        }
+
+    }
+
   }
 
   .mainpanel {
@@ -134,8 +179,8 @@ hr {
       .itemBoxes .itemBox {
         display: inline-block;
         margin-top: 0px;
-        margin: 0px 7px 15px 6px;
-        width: 30%;
+        margin: 0px 5px 15px 4px;
+        width: 31%;
         text-align: center;
         vertical-align: top;
         border-radius: 3px;
@@ -156,10 +201,11 @@ hr {
         padding: 0px;
         overflow: hidden;
       }
+}  
   
   
 
-}
+
 
 
 

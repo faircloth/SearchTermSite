@@ -42,7 +42,7 @@ h2 {
     display: inline-block; }
   .topBarNav li {
     display: inline-block;
-    padding: 0 10px; }
+    padding: 0 15px; }
 
 hr {
   border-top: .03px solid #E1E3DF;
@@ -57,7 +57,7 @@ hr {
     padding: 1px 0px; }
   .navBar li {
     display: inline-block;
-    padding: 0px 10px 0px 0px;
+    padding: 0px 23px 5px 0px;
     font-size: 1em; }
 
 .graycontainer {
@@ -74,6 +74,31 @@ hr {
     width: 200px;
     vertical-align: top;
     margin-left: 5px; }
+    .bodycontainer .sidebar .sideList {
+      border-radius: 3px;
+      background-color: white;
+      border: 1px solid #CBCCC9;
+      padding: 10px;
+      line-height: 1.5em; }
+      .bodycontainer .sidebar .sideList span {
+        padding-left: 5px;
+        font-weight: bold;
+        font-size: 1.05em; }
+      .bodycontainer .sidebar .sideList ul {
+        list-style-type: none;
+        padding-left: 12px; }
+        .bodycontainer .sidebar .sideList ul .mainList {
+          color: #4AA8C4; }
+      .bodycontainer .sidebar .sideList .radiobutton {
+        radius: 3px;
+        margin-left: 5px;
+        margin-top: 10px; }
+        .bodycontainer .sidebar .sideList .radiobutton .radiobutton :hover {
+          background-color: black; }
+      .bodycontainer .sidebar .sideList a {
+        color: #4AA8C4;
+        text-decoration: none;
+        padding-left: 8px; }
   .bodycontainer .mainpanel {
     display: inline-block;
     vertical-align: top;
@@ -81,12 +106,12 @@ hr {
   .bodycontainer .itemBoxes {
     display: inline-block;
     padding: 0px;
-    width: 700px; }
+    width: 730px; }
   .bodycontainer .itemBoxes .itemBox {
     display: inline-block;
     margin-top: 0px;
-    margin: 0px 7px 15px 6px;
-    width: 30%;
+    margin: 0px 5px 15px 4px;
+    width: 31%;
     text-align: center;
     vertical-align: top;
     border-radius: 3px;
