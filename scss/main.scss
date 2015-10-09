@@ -70,8 +70,12 @@ h2 {
 // Second bar: nav
 
 
+hr {
+    border-bottom: 2px solid $etsyGray;
+    width: 100%;
+}
+
 .navBar {
-  border-top: 2px solid $etsyGray;
   margin: 10px 0 0 0;
   ul {
     text-align: center;
@@ -82,7 +86,8 @@ h2 {
     padding: 0px 5px;
     font-size: 1em;
     }
-}
+  }
+
 
 
 
