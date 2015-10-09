@@ -2,6 +2,10 @@
 $etsyOrange: #EC6333;
 $etsyBlue: #4AA8C4;
 $etsyGray: #F5F5F1;
+$etsyBorder: #E1E3DF;
+$pageWidth: 950px;
+$sidebarWidth: 200px;
+$mainPanelWidth: 700px;
 
 
 * {
@@ -17,9 +21,10 @@ h2 {
 
 // top bar
 
-.topcontainer {
-  width: 850px;
+.topbar {
+  width: $pageWidth;
   margin: 0 auto;
+
 }
 
 .Etsy {
@@ -71,19 +76,21 @@ h2 {
 
 
 hr {
-    border-bottom: 2px solid $etsyGray;
+    border-top: .03px solid #E1E3DF;
     width: 100%;
+    margin-top: 15px;
 }
 
 .navBar {
-  margin: 10px 0 0 0;
+  margin: 10px 0px 0px 0px;
   ul {
+    margin-left: 0;
     text-align: center;
-    padding: 1px 2px;
+    padding: 1px 0px;
   }
   li {
     display: inline-block;
-    padding: 0px 5px;
+    padding: 0px 10px 0px 0px;
     font-size: 1em;
     }
   }
@@ -99,14 +106,14 @@ hr {
 }
 
 .bodycontainer  {
-  width: 850px;
+  width: $pageWidth;
   margin: 0 auto;
   padding: 0;
   background-color: $etsyGray;
 
   .sidebar {
     display: inline-block;
-    width: 160px;
+    width: $sidebarWidth;
     vertical-align: top;
     margin-left: 5px;
   }
@@ -120,7 +127,7 @@ hr {
     .itemBoxes {
       display: inline-block;
       padding: 0px;
-      width: 670px;
+      width: $mainPanelWidth;
     }
     
 

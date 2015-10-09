@@ -7,8 +7,8 @@ h2 {
   font-size: 1.1em;
   font-weight: bold; }
 
-.topcontainer {
-  width: 850px;
+.topbar {
+  width: 950px;
   margin: 0 auto; }
 
 .Etsy {
@@ -45,17 +45,19 @@ h2 {
     padding: 0 10px; }
 
 hr {
-  border-bottom: 2px solid #F5F5F1;
-  width: 100%; }
+  border-top: .03px solid #E1E3DF;
+  width: 100%;
+  margin-top: 15px; }
 
 .navBar {
-  margin: 10px 0 0 0; }
+  margin: 10px 0px 0px 0px; }
   .navBar ul {
+    margin-left: 0;
     text-align: center;
-    padding: 1px 2px; }
+    padding: 1px 0px; }
   .navBar li {
     display: inline-block;
-    padding: 0px 5px;
+    padding: 0px 10px 0px 0px;
     font-size: 1em; }
 
 .graycontainer {
@@ -63,13 +65,13 @@ hr {
   border-top: 2px solid #F5F5F1; }
 
 .bodycontainer {
-  width: 850px;
+  width: 950px;
   margin: 0 auto;
   padding: 0;
   background-color: #F5F5F1; }
   .bodycontainer .sidebar {
     display: inline-block;
-    width: 160px;
+    width: 200px;
     vertical-align: top;
     margin-left: 5px; }
   .bodycontainer .mainpanel {
@@ -79,7 +81,7 @@ hr {
   .bodycontainer .itemBoxes {
     display: inline-block;
     padding: 0px;
-    width: 670px; }
+    width: 700px; }
   .bodycontainer .itemBoxes .itemBox {
     display: inline-block;
     margin-top: 0px;
