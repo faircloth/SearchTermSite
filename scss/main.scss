@@ -71,8 +71,7 @@ h2 {
 
 
 .navBar {
-  border-top: 1px solid gray;
-  border-bottom: 1px solid gray;
+  border-top: 2px solid $etsyGray;
   margin: 10px 0 0 0;
   ul {
     text-align: center;
@@ -89,6 +88,11 @@ h2 {
 
 // bodycontainer
 
+.graycontainer {
+  background-color: $etsyGray;
+  border-top: 2px solid $etsyGray;
+}
+
 .bodycontainer  {
   width: 850px;
   margin: 0 auto;
@@ -104,16 +108,18 @@ h2 {
 
   .mainpanel {
   display: inline-block;
-  width: 670px;
   vertical-align: top;
   margin-left: 5px;
+  }
 
     .itemBoxes {
       display: inline-block;
       padding: 0px;
+      width: 670px;
     }
+    
 
-      .itemBox {
+      .itemBoxes .itemBox {
         display: inline-block;
         margin-top: 0px;
         margin: 0px 7px 15px 6px;
@@ -123,15 +129,23 @@ h2 {
         border-radius: 3px;
         background-color: white;
         border: 1px solid #CBCCC9;
-
       }
 
-      .itemImages{
+      .itemBox .text {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        padding: 0 5px;
+      }
+
+      .itemBox .itemImages{
         border-radius: 2px;
         width: 100%;
-
+        padding: 0px;
+        overflow: hidden;
       }
-  }
+  
+  
 
 }
 
