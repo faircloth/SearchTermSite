@@ -81,22 +81,24 @@
           </ul>
         </div>
 
-        <hr>
+      
 
         <h2>Refine your search</h2>
         <div class="sideList">
         <span>Item type</span><br>
-            <button class="radiobutton"></button><a href="#" type="radio">All items</a><br>
-            <button class="radiobutton"></button><a href="#">Handmande</a><br>
-           <button class="radiobutton"></button><a href="#">Vintage</a>
+          <form>
+          <input type="radio" name="itemtype" value="All items">          All items<br>
+          <input type="radio" name="itemtype" value="Handmade">   Handmade<br>
+          <input type="radio" name="itemtype" value="Vintage">   Vintage
+           </input>
+           </form>
 
 
       
-        </div>
+      <hr>
 
-        <hr>
-
-        <h2>Price</h2>
+        <span>Price</span><br>
+      
          
          <form>
             <input class="lowPrice" type= "text" placeholder="Low">
@@ -133,6 +135,8 @@
 
         <span>Make drop down</span>
 
+        </div>
+
 
     </div>
 
@@ -161,13 +165,16 @@
                     </a>
                   </div>                
                   <p class="text">
+                    <a href= <%= url %> >
                     <%= title %>
                   </p>
-                  <p>
-                    <%= Shop.shop_name %>
+                  <p class="shopName">
+                    <a href= <%= Shop.url %>
+                    <span><%= Shop.shop_name %></span>
+                    </a>
                   </p>
-                  <p>
-                    $<%= price %>
+                  <p class="price">
+                    $<%= price %> USD
                   </p>
                 </div>
             </script>

@@ -1,7 +1,7 @@
 * {
   font-size: 14px;
   font-family: 'Noto Sans', sans-serif;
-  color: #5B5B5B; }
+  color: #555563; }
 
 h2 {
   font-size: 1.1em;
@@ -71,7 +71,7 @@ hr {
   background-color: #F5F5F1; }
   .bodycontainer .sidebar {
     display: inline-block;
-    width: 200px;
+    width: 240px;
     vertical-align: top;
     margin-left: 5px; }
     .bodycontainer .sidebar .sideList {
@@ -79,14 +79,15 @@ hr {
       background-color: white;
       border: 1px solid #CBCCC9;
       padding: 10px;
-      line-height: 1.5em; }
+      line-height: 1.9em; }
       .bodycontainer .sidebar .sideList span {
         padding-left: 5px;
         font-weight: bold;
         font-size: 1.05em; }
       .bodycontainer .sidebar .sideList ul {
         list-style-type: none;
-        padding-left: 12px; }
+        padding-left: 10px;
+        font-size: .9em; }
         .bodycontainer .sidebar .sideList ul .mainList {
           color: #4AA8C4; }
       .bodycontainer .sidebar .sideList .radiobutton {
@@ -106,13 +107,12 @@ hr {
   .bodycontainer .itemBoxes {
     display: inline-block;
     padding: 0px;
-    width: 730px; }
+    width: 690px; }
   .bodycontainer .itemBoxes .itemBox {
     display: inline-block;
     margin-top: 0px;
     margin: 0px 5px 15px 4px;
     width: 31%;
-    text-align: center;
     vertical-align: top;
     border-radius: 3px;
     background-color: white;
@@ -124,7 +124,9 @@ hr {
       width: 100%;
       padding: 0px;
       overflow: hidden;
-      z-index: 0; }
+      z-index: 0;
+      border-bottom: 1px solid #E1E3DF;
+      box-sizing: border-box; }
     .bodycontainer .itemBoxes .itemBox a button .hamburger {
       opacity: 0;
       float: left;
@@ -218,4 +220,29 @@ hr {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    padding: 0 5px; }
+    padding: 0 5px;
+    margin: 2px 0;
+    font-size: .9em;
+    color: #555563; }
+    .bodycontainer .itemBox .text a {
+      font-size: 1em; }
+  .bodycontainer .itemBox .shopName {
+    display: inline-block;
+    font-size: 10px;
+    padding-left: 5px;
+    margin: 2px 0;
+    vertical-align: center; }
+    .bodycontainer .itemBox .shopName a {
+      font-size: 1.2em;
+      color: #C7B4AA; }
+  .bodycontainer .itemBox .shopName:hover {
+    text-decoration: underline; }
+  .bodycontainer .itemBox .price {
+    display: inline-block;
+    float: right;
+    padding-right: 5px;
+    font-size: 12px;
+    text-align: right;
+    padding-left: 5px;
+    margin: 2px 0;
+    color: #78C094; }
