@@ -117,13 +117,42 @@ hr {
     border-radius: 3px;
     background-color: white;
     border: 1px solid #CBCCC9; }
+    .bodycontainer .itemBoxes .itemBox .imagecard {
+      position: relative; }
+    .bodycontainer .itemBoxes .itemBox .itemImages {
+      border-radius: 2px;
+      width: 100%;
+      padding: 0px;
+      overflow: hidden; }
+    .bodycontainer .itemBoxes .itemBox a .heart {
+      opacity: 0;
+      float: right;
+      position: absolute;
+      top: 3px;
+      right: 0px;
+      bottom: 10px;
+      left: 160px;
+      border: 2px solid #F5F5F1;
+      width: 18px;
+      padding: 2px;
+      border-radius: 3px;
+      background-color: white; }
+    .bodycontainer .itemBoxes .itemBox a:hover .heart {
+      opacity: .7; }
+    .bodycontainer .itemBoxes .itemBox a:hover .heart:hover {
+      opacity: 100.5; }
+    .bodycontainer .itemBoxes .itemBox a .hamburger {
+      opacity: 0;
+      float: right;
+      position: absolute;
+      top: 5px;
+      right: 0px;
+      bottom: 10px;
+      left: 190px; }
+    .bodycontainer .itemBoxes .itemBox a:hover .hamburger {
+      opacity: .8; }
   .bodycontainer .itemBox .text {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
     padding: 0 5px; }
-  .bodycontainer .itemBox .itemImages {
-    border-radius: 2px;
-    width: 100%;
-    padding: 0px;
-    overflow: hidden; }

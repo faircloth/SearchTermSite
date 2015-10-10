@@ -149,7 +149,13 @@
           <div class="itemBoxes">
              <script type="text/template" id="itemTemplate">
                  <div class="itemBox">
-                  <img  class="itemImages" src="<%= Images[0].url_170x135 %>">
+                  <div class="imagecard">
+                  <a href= <%= url %> >
+                  <img class="itemImages" src="<%= Images[0].url_170x135 %>">
+                    <img class="hamburger" src="http://i.imgur.com/vzMlwuz.png">
+                    <img class="heart" src="http://i.imgur.com/rnX9fvX.png">
+                    </a>
+                  </div>                
                   <p class="text">
                     <%= title %>
                   </p>
