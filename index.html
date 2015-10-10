@@ -86,7 +86,7 @@
         <h2>Refine your search</h2>
         <div class="sideList">
         <span>Item type</span><br>
-            <button class="radiobutton"></button><a href="#">All items</a><br>
+            <button class="radiobutton"></button><a href="#" type="radio">All items</a><br>
             <button class="radiobutton"></button><a href="#">Handmande</a><br>
            <button class="radiobutton"></button><a href="#">Vintage</a>
 
@@ -152,8 +152,12 @@
                   <div class="imagecard">
                   <a href= <%= url %> >
                   <img class="itemImages" src="<%= Images[0].url_170x135 %>">
-                    <button> <img class="hamburger" src="http://i.imgur.com/vzMlwuz.png"> <div class="triangle"> </div> </button>
+                    <button id="hambutton"> <img class="hamburger" src="http://i.imgur.com/vzMlwuz.png"> <div class="triangle"> </div> </button>
                     <img class="heart" src="http://i.imgur.com/rnX9fvX.png">
+                    <div class="hidden" id="popup">
+                      <p class="yourlist">Your lists</p>
+                      <input type="text" placeholder="New list">
+                      </input>
                     </a>
                   </div>                
                   <p class="text">

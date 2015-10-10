@@ -12,4 +12,13 @@
   $('.itemBoxes').append(itemHTML);
 });
 
+
+  $('#hambutton').on('hover', '#hambutton', function (event){
+  var btn = $(event.target);
+  var popup = $(btn.sibling('#popup'));
+  popup.removeClass('hidden');
+  popup.addClass('reveallist');
+});
+
+
 }());
