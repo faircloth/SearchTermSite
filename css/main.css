@@ -71,7 +71,7 @@ hr {
   background-color: #F5F5F1; }
   .bodycontainer .sidebar {
     display: inline-block;
-    width: 240px;
+    width: 220px;
     vertical-align: top;
     margin-left: 5px; }
     .bodycontainer .sidebar .sideList {
@@ -81,7 +81,7 @@ hr {
       padding: 10px;
       line-height: 1.9em; }
       .bodycontainer .sidebar .sideList span {
-        padding-left: 5px;
+        padding-left: 0px;
         font-weight: bold;
         font-size: 1.05em; }
       .bodycontainer .sidebar .sideList ul {
@@ -107,7 +107,7 @@ hr {
   .bodycontainer .itemBoxes {
     display: inline-block;
     padding: 0px;
-    width: 690px; }
+    width: 710px; }
   .bodycontainer .itemBoxes .itemBox {
     display: inline-block;
     margin-top: 0px;
@@ -212,10 +212,34 @@ hr {
       .bodycontainer .itemBoxes .itemBox div.reveallist p {
         margin-top: 2px;
         margin-bottom: 4px; }
-      .bodycontainer .itemBoxes .itemBox div.reveallist input {
-        font-size: .9em;
-        border-radius: 3px;
-        border: 2px solid #E1E3DF; }
+  .bodycontainer input {
+    border: none;
+    padding-right: 5px;
+    text-align: left; }
+  .bodycontainer .itemtype {
+    padding-left: 5px;
+    text-align: left; }
+  .bodycontainer .lowPrice {
+    border: none;
+    padding-right: 5px;
+    width: 40px; }
+  .bodycontainer .highPrice {
+    border: none;
+    padding-right: 5px;
+    width: 40px; }
+  .bodycontainer .pricefield {
+    border: 1px solid #E1E3DF;
+    padding: 5px;
+    border-radius: 3px;
+    display: inline-block; }
+  .bodycontainer .priceButton {
+    background-color: white;
+    border: 1px solid #E1E3DF;
+    border-radius: 2px;
+    vertical-align: top;
+    font-size: 1.3em;
+    padding: 5px 0;
+    width: 25px; }
   .bodycontainer .itemBox .text {
     white-space: nowrap;
     overflow: hidden;
@@ -226,6 +250,31 @@ hr {
     color: #555563; }
     .bodycontainer .itemBox .text a {
       font-size: 1em; }
+  .bodycontainer .colorblocks {
+    border: 1px solid #E1E3DF;
+    display: inline-block;
+    width: 19px;
+    height: 19px;
+    border-radius: 2px;
+    padding: 0;
+    margin-left: .08px; }
+  .bodycontainer #pink {
+    background-color: pink;
+    margin-left: 2px; }
+  .bodycontainer #orange {
+    background-color: orange; }
+  .bodycontainer #yellow {
+    background-color: yellow; }
+  .bodycontainer #green {
+    background-color: green; }
+  .bodycontainer #blue {
+    background-color: blue; }
+  .bodycontainer #purple {
+    background-color: purple; }
+  .bodycontainer #black {
+    background-color: black; }
+  .bodycontainer #white {
+    background-color: white; }
   .bodycontainer .itemBox .shopName {
     display: inline-block;
     font-size: 10px;
@@ -235,6 +284,9 @@ hr {
     .bodycontainer .itemBox .shopName a {
       font-size: 1.2em;
       color: #C7B4AA; }
+  .bodycontainer .orderingoption {
+    border-radius: 0px;
+    color: #4AA8C4; }
   .bodycontainer .itemBox .shopName:hover {
     text-decoration: underline; }
   .bodycontainer .itemBox .price {

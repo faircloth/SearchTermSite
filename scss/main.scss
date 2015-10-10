@@ -4,8 +4,8 @@ $etsyBlue: #4AA8C4;
 $etsyGray: #F5F5F1;
 $etsyBorder: #E1E3DF;
 $pageWidth: 950px;
-$sidebarWidth: 240px;
-$mainPanelWidth: 690px;
+$sidebarWidth: 220px;
+$mainPanelWidth: 710px;
 
 
 * {
@@ -128,7 +128,7 @@ hr {
       line-height: 1.9em;
 
        span {
-        padding-left: 5px;
+        padding-left: 0px;
         font-weight: bold;
         font-size: 1.05em;
       }
@@ -320,13 +320,52 @@ hr {
                       margin-bottom: 4px;
                     }
 
-                    input {
-                      font-size: .9em;
-                      border-radius: 3px;
-                      border: 2px solid $etsyBorder;
-                    }
+                    
+                    
                   }
             
+      }
+
+     input {
+      border: none;
+      padding-right: 5px;
+      text-align: left;
+    }
+
+        .itemtype {
+          padding-left: 5px;
+          text-align: left;
+
+        }
+     
+       .lowPrice {
+        border: none;
+        padding-right: 5px;
+        width: 40px;
+      }
+
+       .highPrice {
+        border: none;
+        padding-right: 5px;
+        width: 40px;
+      }
+     
+
+     .pricefield {
+      border: 1px solid $etsyBorder;
+      padding: 5px;
+      border-radius: 3px;
+      display: inline-block;
+     }
+
+      .priceButton {
+        background-color: white;
+        border: 1px solid $etsyBorder;
+        border-radius: 2px;
+        vertical-align: top;
+        font-size: 1.3em;
+        padding: 5px 0;
+        width: 25px;
       }
 
       .itemBox .text {
@@ -346,6 +385,31 @@ hr {
           }
       }
 
+     
+
+      .colorblocks {
+        border: 1px solid $etsyBorder;
+        display: inline-block;
+        width: 19px;
+        height: 19px;
+        border-radius: 2px;
+        padding: 0;
+        margin-left: .08px;
+       }
+
+      #pink {
+        background-color: pink; 
+        margin-left: 2px;
+        }  
+      #orange {background-color: orange;}
+      #yellow {background-color: yellow;}
+      #green {background-color: green;}
+      #blue {background-color: blue;}
+      #purple {background-color: purple;}
+      #black {background-color: black;}
+      #white {background-color: white;}
+      
+
       .itemBox .shopName {
         display: inline-block;
         font-size: 10px;
@@ -358,7 +422,10 @@ hr {
         }
       }
 
-
+     .orderingoption {
+      border-radius: 0px;
+      color: $etsyBlue;
+    }
       .itemBox .shopName:hover {
         text-decoration: underline;
       }
@@ -375,12 +442,13 @@ hr {
         color: #78C094;
       }
 
-    
 
    
 
       
 }  
+
+
   
   
 
