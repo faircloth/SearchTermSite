@@ -9,7 +9,7 @@ $mainPanelWidth: 710px;
 
 
 * {
-  font-size: 14px;
+  font-size: 12px;
   font-family: 'Noto Sans', sans-serif;
   color: #555563;
 }
@@ -61,14 +61,19 @@ h2 {
 
 .topBarNav {
   display: inline-block;
-  margin-left: 70px;
-  color: $etsyBlue;
+  margin-left: 90px;
+
+    .sellOn{
+      color: $etsyBlue;
+      font-size: 1.2em;
+    }
     ul {
       display: inline-block;
     }
     li {
       display: inline-block;
       padding: 0 15px;
+      font-size: 1.2em;
     }
 }
 
@@ -93,7 +98,7 @@ hr {
   li {
     display: inline-block;
     padding: 0px 23px 5px 0px;
-    font-size: 1em;
+    font-size: 1.1em;
     }
   }
 
@@ -130,13 +135,14 @@ hr {
        span {
         padding-left: 0px;
         font-weight: bold;
-        font-size: 1.05em;
+        font-size: 1.1em;
+        padding-bottom: 2px;
       }
 
       ul {
       list-style-type: none;
       padding-left: 10px;
-      font-size: .9em;
+      font-size: 1em;
  
 
         .mainList {
@@ -162,7 +168,36 @@ hr {
 
     }
 
+    .itemtype input {
+      background-color: $etsyBlue;
+      padding: 15px;
+      font-weight: 500;
+    }
+
+    #chooseloc {
+      padding-left: 0px;
+    }
+
+    select {
+      display: block;
+      width: 180px;
+      height: 40px;
+      border: 1px solid $etsyBlue;
+      margin-top: 5px;
+      padding: 20px 5px;
+      font-size: 1.2em;
+    }
+
   }
+
+  .mainpanel h2 {
+      color: $etsyBlue;
+      padding-left: 5px;
+
+        span {
+          font-size: 1.05em;
+        }
+    }
 
   .mainpanel {
   display: inline-block;
@@ -170,11 +205,15 @@ hr {
   margin-left: 5px;
   }
 
+   
+
     .itemBoxes {
       display: inline-block;
       padding: 0px;
       width: $mainPanelWidth;
     }
+
+
     
 
       .itemBoxes .itemBox {
@@ -377,11 +416,11 @@ hr {
         font-size: .9em;
         color: #555563;
 
-          a {
-            font-size: 1em;
-            :hover {
 
-            }
+          a {
+            font-size: 1.2em;
+            text-decoration: none;
+
           }
       }
 
@@ -441,6 +480,63 @@ hr {
         margin: 2px 0;
         color: #78C094;
       }
+
+      .relatedtoP {
+        font-size: 1.2em;
+      }
+
+      .relatedto {
+        display: inline-block;
+        list-style-type: none;
+        padding-left: 0px;
+        padding-right: 100px;
+        line-height: 28px;
+        margin-top: 2px;
+
+          ul {
+            padding-left: 0px;
+          }
+
+          li {
+            color: $etsyBlue;
+            font-size: 1.2em;
+          }
+      }
+
+          #numberbtn {
+          width: 40px;
+          padding: 8px 5px;
+          font-size: 14px;
+          background-color: white;
+          border: 1px solid gray;
+          margin: 0px 0px 0px 0px;
+          font-weight: bold;
+          }
+
+          #numberbtn2 {
+          width: 40px;
+          padding: 8px 5px;
+          font-weight: bold;
+          font-size: 14px;
+          background-color: white;
+          border: 1px solid gray;
+          border-left: none;
+          margin: 0px 0px 0px 0px;
+          }
+
+          #numberbtn3 {
+          width: 40px;
+          padding: 8px 5px;
+          font-weight: bold;
+          font-size: 14px;
+          color: white;
+          background-color: $etsyBlue;
+          border: 1px solid gray;
+          border-left: none;
+          margin: 0px 0px 0px 0px;
+          }
+
+
 
 
    
