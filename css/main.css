@@ -124,6 +124,40 @@ hr {
       width: 100%;
       padding: 0px;
       overflow: hidden; }
+    .bodycontainer .itemBoxes .itemBox a button .hamburger {
+      opacity: 0;
+      float: left;
+      width: 20px;
+      vertical-align: center; }
+    .bodycontainer .itemBoxes .itemBox a button {
+      opacity: 0;
+      float: right;
+      position: absolute;
+      top: 3px;
+      right: 0px;
+      bottom: 10px;
+      left: 170px;
+      border: 2px solid #F5F5F1;
+      width: 50px;
+      height: 27px;
+      padding: 2px;
+      border-radius: 3px;
+      background-color: white; }
+    .bodycontainer .itemBoxes .itemBox a:hover .hamburger {
+      opacity: .95; }
+    .bodycontainer .itemBoxes .itemBox a:hover button {
+      opacity: .95; }
+    .bodycontainer .itemBoxes .itemBox a:hover .triangle {
+      opacity: .95;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 10.4px 6px 0 6px;
+      border-color: #d4d4d4 transparent transparent transparent;
+      margin-top: 5px;
+      float: right; }
+    .bodycontainer .itemBoxes .itemBox a:hover .hamburger:hover {
+      opacity: 100; }
     .bodycontainer .itemBoxes .itemBox a .heart {
       opacity: 0;
       float: right;
@@ -131,26 +165,16 @@ hr {
       top: 3px;
       right: 0px;
       bottom: 10px;
-      left: 160px;
+      left: 140px;
       border: 2px solid #F5F5F1;
       width: 18px;
       padding: 2px;
       border-radius: 3px;
       background-color: white; }
     .bodycontainer .itemBoxes .itemBox a:hover .heart {
-      opacity: .7; }
+      opacity: .9; }
     .bodycontainer .itemBoxes .itemBox a:hover .heart:hover {
-      opacity: 100.5; }
-    .bodycontainer .itemBoxes .itemBox a .hamburger {
-      opacity: 0;
-      float: right;
-      position: absolute;
-      top: 5px;
-      right: 0px;
-      bottom: 10px;
-      left: 190px; }
-    .bodycontainer .itemBoxes .itemBox a:hover .hamburger {
-      opacity: .8; }
+      opacity: 100; }
   .bodycontainer .itemBox .text {
     white-space: nowrap;
     overflow: hidden;
