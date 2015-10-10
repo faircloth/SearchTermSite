@@ -61,19 +61,50 @@ h2 {
 
 .topBarNav {
   display: inline-block;
-  margin-left: 90px;
 
     .sellOn{
       color: $etsyBlue;
       font-size: 1.2em;
+      margin-left: 100px;
+      padding-bottom: 30px;
     }
-    ul {
+    .topRightIcons {
       display: inline-block;
+      width: 380px;
+      margin: 5px 10px;
+      padding-left: 0px;
     }
-    li {
+
+    div .iconblocks {
+      display: block;
+      border-right: 1px solid $etsyBorder;
+      width: 23%;
+      height: 50px;
       display: inline-block;
-      padding: 0 15px;
+      padding-top: 10px;
+      padding-bottom: 0px;
+      vertical-align: center;
+      text-align: center;
+      line-height: 5px;
       font-size: 1.2em;
+      opacity: .6;
+
+        :hover {
+          opacity: 1;
+        }
+    }
+
+    img {
+      display: block;
+      width: 25px;
+      height: 30px;
+      vertical-align: top;
+      margin: 0 auto;
+      opacity: .6;
+      :hover {
+          opacity: 1;
+        }
+
     }
 }
 

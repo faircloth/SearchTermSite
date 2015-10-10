@@ -35,17 +35,41 @@ h2 {
     color: white; }
 
 .topBarNav {
-  display: inline-block;
-  margin-left: 90px; }
+  display: inline-block; }
   .topBarNav .sellOn {
     color: #4AA8C4;
-    font-size: 1.2em; }
-  .topBarNav ul {
-    display: inline-block; }
-  .topBarNav li {
+    font-size: 1.2em;
+    margin-left: 100px;
+    padding-bottom: 30px; }
+  .topBarNav .topRightIcons {
     display: inline-block;
-    padding: 0 15px;
-    font-size: 1.2em; }
+    width: 380px;
+    margin: 5px 10px;
+    padding-left: 0px; }
+  .topBarNav div .iconblocks {
+    display: block;
+    border-right: 1px solid #E1E3DF;
+    width: 23%;
+    height: 50px;
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    vertical-align: center;
+    text-align: center;
+    line-height: 5px;
+    font-size: 1.2em;
+    opacity: .6; }
+    .topBarNav div .iconblocks :hover {
+      opacity: 1; }
+  .topBarNav img {
+    display: block;
+    width: 25px;
+    height: 30px;
+    vertical-align: top;
+    margin: 0 auto;
+    opacity: .6; }
+    .topBarNav img :hover {
+      opacity: 1; }
 
 hr {
   border-top: .03px solid #E1E3DF;
