@@ -309,15 +309,16 @@ hr {
               a:hover button:hover {
                 opacity: 100;
                 z-index: 2;
-                link: disabled;
+                
               }
 
                a:hover button:link {
-                link: disabled;
+                
               }
 
               a:hover button:hover .hamburger {
                 opacity: 100;
+                z-index: 100;
               }
 
                a:hover .triangle {
@@ -334,6 +335,12 @@ hr {
 
                 a:hover .hamburger:hover {
                     opacity: 100;
+                  }
+
+
+                a:hover .hamburger:hover {
+                    opacity: 100;
+
                   }
                
                a .heart{
@@ -359,15 +366,14 @@ hr {
                   }
 
                  
-
-                  div .hidden {
+                  div #popup.hidden {
                   z-index: 0;
                   opacity: 0;
                   position: absolute;
                   bottom: 170px;
                   }
 
-                  div.reveallist {
+                  #popup.reveallist {
                   border: 2px solid $etsyBorder;
                   background-color: white;
                   margin-left: 80px;

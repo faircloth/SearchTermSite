@@ -201,12 +201,10 @@ hr {
       z-index: 2; }
     .bodycontainer .itemBoxes .itemBox a:hover button:hover {
       opacity: 100;
-      z-index: 2;
-      link: disabled; }
-    .bodycontainer .itemBoxes .itemBox a:hover button:link {
-      link: disabled; }
+      z-index: 2; }
     .bodycontainer .itemBoxes .itemBox a:hover button:hover .hamburger {
-      opacity: 100; }
+      opacity: 100;
+      z-index: 100; }
     .bodycontainer .itemBoxes .itemBox a:hover .triangle {
       opacity: 100;
       width: 0;
@@ -217,6 +215,8 @@ hr {
       margin-top: 5px;
       float: right;
       padding-right: 2px; }
+    .bodycontainer .itemBoxes .itemBox a:hover .hamburger:hover {
+      opacity: 100; }
     .bodycontainer .itemBoxes .itemBox a:hover .hamburger:hover {
       opacity: 100; }
     .bodycontainer .itemBoxes .itemBox a .heart {
@@ -236,12 +236,12 @@ hr {
       opacity: .9; }
     .bodycontainer .itemBoxes .itemBox a:hover .heart:hover {
       opacity: 100; }
-    .bodycontainer .itemBoxes .itemBox div .hidden {
+    .bodycontainer .itemBoxes .itemBox div #popup.hidden {
       z-index: 0;
       opacity: 0;
       position: absolute;
       bottom: 170px; }
-    .bodycontainer .itemBoxes .itemBox div.reveallist {
+    .bodycontainer .itemBoxes .itemBox #popup.reveallist {
       border: 2px solid #E1E3DF;
       background-color: white;
       margin-left: 80px;
@@ -252,11 +252,11 @@ hr {
       position: absolute;
       bottom: 170px;
       z-index: 2; }
-      .bodycontainer .itemBoxes .itemBox div.reveallist a {
+      .bodycontainer .itemBoxes .itemBox #popup.reveallist a {
         text-decoration: none;
         text-transform: uppercase;
         text-align: left; }
-      .bodycontainer .itemBoxes .itemBox div.reveallist p {
+      .bodycontainer .itemBoxes .itemBox #popup.reveallist p {
         margin-top: 2px;
         margin-bottom: 4px; }
   .bodycontainer input {
